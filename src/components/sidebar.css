@@ -1,0 +1,20 @@
+.sidebar{
+    position: fixed;
+height:92vh ;
+}
+.show-more{
+    border: none;
+    background-color: #222;
+}
+.show-more .bi {
+    background-color: #444;
+    padding: 3px 5px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.btns .bi{
+    font-size: 25px;
+}
+.btns .acount{
+    width: 35px;
+}

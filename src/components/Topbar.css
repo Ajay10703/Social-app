@@ -1,0 +1,43 @@
+.top-bar-container {
+    background-color: #333;
+}
+
+.search,
+.search:active {
+    border: none;
+}
+
+.bi {
+    font-size: 25px;
+}
+
+.inputs {
+    background-color: #444;
+    border-radius: 20px;
+    padding: 2px 10px;
+    max-height: 40px;
+}
+
+.bi-search {
+    font-size: 20px;
+}
+
+.search {
+    background-color: #444;
+}
+
+.right-bar .bi {
+    background-color: #444;
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.right-bar {
+    text-align: right;
+}
+
+.acount {
+    width: 40px;
+    border-radius: 50%;
+}
