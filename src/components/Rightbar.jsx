@@ -1,98 +1,69 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './right-bar.css'
-import Fb from './fb.jpg'
+
 const Rightbar = () => {
-  const [rightside] = useState([
-{
+  const rightside = [
+{url:require("./assets/1.png"),
   name:"Rohit kumar"
 },
-{
+{url:require("./assets/2.jpg"),
   name:"Sourabh kumar"
 },
-{
+{url:require("./assets/3.jpg"),
   name:"Prem kumar chandra"
 },
-{
+{url:require("./assets/5.jpg"),
   name:"Deepak raj"
 },
-{
+{url:require("./assets/6.jpg"),
   name:"Amar prasad"
 },
-{
+{url:require("./assets/7.jpg"),
   name:"Anurag singh"
 },
-{
+{url:require("./assets/8.png"),
   name:"Rahul kumar"
 },
-{
+{url:require("./assets/9.jpg"),
   name:"Sonu kumar"
 },
-{
+{url:require("./assets/5.jpg"),
   name:"Rohit kumar"
 },
-{
+{url:require("./assets/7.jpg"),
   name:"Bunty raj"
 },
-{
+{url:require("./assets/1.png"),
   name:"Rohit kumar"
 },
-{
+{url:require("./assets/2.jpg"),
   name:"Sourabh kumar"
 },
-{
+{url:require("./assets/3.jpg"),
   name:"Prem kumar chandra"
 },
-{
+{url:require("./assets/5.jpg"),
   name:"Deepak raj"
 },
-{
+{url:require("./assets/6.jpg"),
   name:"Amar prasad"
 },
-{
+{url:require("./assets/7.jpg"),
   name:"Anurag singh"
 },
-{
+{url:require("./assets/8.png"),
   name:"Rahul kumar"
 },
-{
+{url:require("./assets/9.jpg"),
   name:"Sonu kumar"
 },
-{
+{url:require("./assets/5.jpg"),
   name:"Rohit kumar"
 },
-{
-  name:"Bunty raj"
-},{
-  name:"Rohit kumar"
-},
-{
-  name:"Sourabh kumar"
-},
-{
-  name:"Prem kumar chandra"
-},
-{
-  name:"Deepak raj"
-},
-{
-  name:"Amar prasad"
-},
-{
-  name:"Anurag singh"
-},
-{
-  name:"Rahul kumar"
-},
-{
-  name:"Sonu kumar"
-},
-{
-  name:"Rohit kumar"
-},
-{
+{url:require("./assets/7.jpg"),
   name:"Bunty raj"
 }
-  ]);
+  ];
   return (
     
     <div className='offset-9 col-3 contact-section sidebar'>
@@ -105,7 +76,7 @@ const Rightbar = () => {
       </div>
       {rightside.map((rt)=>(
       <div className="btns mt-3 ml-4">
-        <img className='fb-img' src={Fb} alt="" /><span className='ml-3'>{rt.name}</span>
+        <img className='fb-img' src={rt.url} alt="" /><span className='ml-3'>{rt.name}</span>
       </div>
       ))}
     </div>

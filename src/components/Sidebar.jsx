@@ -1,6 +1,7 @@
 import React from 'react';
 import './sidebar.css'
 import Acount from'./acount.jpg'
+import { Link } from 'react-router-dom';
 const Sidebar = () => {
 
   const sideBtn = [
@@ -35,7 +36,7 @@ const Sidebar = () => {
   ];
   return (
     <div className='col-2 sidebar '>
-      <div className="user btns mt-4 ml-4"><img className='acount '  src={Acount} alt="user"/><span className='ml-2'>Ajay kumar</span></div>
+     <Link className='p-link' to="/profile"><div className="user btns mt-4 ml-4"><img className='acount '  src={Acount} alt="user"/><span className='ml-2'>Ajay kumar</span></div></Link>
       {sideBtn.map((btns)=>(
       <div className="btns mt-3 ml-4">
         <i className={btns.icon}></i><span className='ml-3'>{btns.name}</span>

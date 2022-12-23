@@ -1,0 +1,36 @@
+#login-page{
+    height: 90vh;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    align-items: center;
+}
+.login-box{
+    justify-content: center;
+    
+}
+.app-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.app-discription{
+    font-size: 25px;
+}
+.login-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px solid black;
+}
+.modal-title h5{
+    font-size: 30px;
+}
+.dob, .gen, .des{
+    font-size: 12px;
+}
+.radio-box{
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+
+}
