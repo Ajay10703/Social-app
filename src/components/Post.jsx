@@ -11,9 +11,19 @@ const Posts = ({postdt}) => {
     setLike(isLiked? like-1 : like+1 )
     setIsLiked(!isLiked)
   }
+const closebtn =()=>{
+ const p= document.querySelector(`#${postdt.id}`);
+p.style.display="none";
+}
+  // const[display,setdisplay]=useState(postdt.id)
+  // const[closed,setClosed]=useState(false)
+  // const closeHandler=()=>{
+  //   setLike(isLiked? like-1 : like+1 )
+  //   setIsLiked(!isLiked)
+  // }
   return (
     
-      <div className="post pb-3">
+      <div className="post pb-3" id={postdt.id}>
         <div className="post-head row p-2">
           <div className="left col-6"><img className='fb-img  img-fluid' src={postdt.url} alt="" />
             <span className='ml-1 post-sender'>{postdt.name}</span>
@@ -21,7 +31,7 @@ const Posts = ({postdt}) => {
           </div>
           <div className="right col-6 d-flex">
             <i className="bi bi-three-dots  ml-auto"></i>
-            <i className="bi bi-x ml-2"></i>
+            <button className='close-btn' onClick={closebtn}><i className="bi bi-x ml-2"></i></button>
           </div>
         </div>
         <div className="discription px-2 ">{postdt.dist}</div>

@@ -1,6 +1,7 @@
 .background{
     background-color: #222;
     color: #fff;
+    min-height: 92vh;
 }
 .mains{
     overflow-y: scroll;

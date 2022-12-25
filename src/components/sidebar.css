@@ -1,6 +1,7 @@
 .sidebar{
     position: fixed;
 height:92vh ;
+overflow-y: scroll;
 }
 .show-more{
     border: none;
@@ -21,4 +22,7 @@ height:92vh ;
 .p-link, .p-link:hover{
     text-decoration: none!important;
     color: #fff;
+}
+#extra-btns{
+    display: none;
 }

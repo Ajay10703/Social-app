@@ -1,5 +1,5 @@
 export const postData = [
-    {id:1,
+    {id:"a",
       url:require("./assets/1.png"),
       name: "Rohit kumar",
       image: require("./ht.jpg"),
@@ -13,7 +13,7 @@ export const postData = [
       cmtUrl:require("./assets/2.jpg"),
       heart: "1"
     },
-    {id:2,
+    {id:"b",
       name: "Sourabh kumar",
       url:require("./assets/2.jpg"),
       image: require("./cs.jpeg"),
@@ -27,7 +27,7 @@ export const postData = [
       cmtUrl:require("./assets/1.png"),
       heart: "1"
     },
-    {id:3,
+    {id:"c",
       url:require("./assets/3.jpg"),
       name: "Prem kumar chandra",
       image: require("./js.png"),
@@ -41,7 +41,7 @@ export const postData = [
       cmtUrl:require("./assets/5.jpg"),
       heart: "1"
     },
-    {id:4,
+    {id:"d",
       url:require("./assets/4.jpg"),
       name: "Deepak raj",
       image: require("./re.png"),
@@ -55,7 +55,7 @@ export const postData = [
       cmtUrl:require("./assets/6.jpg"),
       heart: "1"
     },
-    {id:5,
+    {id:"e",
       url:require("./assets/5.jpg"),
       name: "Amar prasad",
       image: require("./nd.png"),
@@ -67,7 +67,7 @@ export const postData = [
       cmtUrl:require("./assets/4.jpg"),
       time: "1 day"
     },
-    {id:6,
+    {id:"f",
       url:require("./assets/6.jpg"),
       name: "Anurag singh",
       image: require("./ex.png"),
@@ -82,7 +82,7 @@ export const postData = [
       heart: "1"
 
     },
-    {id:7,
+    {id:"g",
       url:require("./assets/7.jpg"),
       name: "Rahul kumar",
       image: require("./mo.png"),
@@ -95,7 +95,7 @@ export const postData = [
       cmtUrl:require("./assets/8.png"),
       
     },
-    {id:8,
+    {id:"h",
       url:require("./assets/1.png"),
       name: "Rohit kumar",
       image: require("./bt.jpg"),
@@ -109,7 +109,7 @@ export const postData = [
       cmtUrl:require("./assets/2.jpg"),
       heart: "1"
     },
-    {id:9,
+    {id:"i",
       url:require("./assets/2.jpg"),
       name: "Sourabh kumar",
       image: require("./c.jpg"),
@@ -177,4 +177,90 @@ export const postData = [
     name:"Mithlesh kumar"
   }
      
-   ]
+   ];
+
+
+  export const SideBtn = [
+    {
+      name: "Friends",
+      icon: "bi bi-people-fill text-white"
+    },
+    {
+      name: "Most recent",
+      icon: "bi bi-list-check text-white"
+    },
+    {
+      name: "Groups",
+      icon: "bi bi-people text-white"
+    },
+    {
+      name: "Marketplace",
+      icon: "bi bi-shop text-white"
+    },
+    {
+      name: "Watch",
+      icon: "bi bi-play-btn-fill text-white"
+    },
+    {
+      name: "Memories",
+      icon: "bi bi-clock-history  text-white"
+    }
+  
+  ];
+
+   export const SideBtn2 = [
+    
+    {
+      name: "Ads Manager",
+      icon: "bi bi-bar-chart-fill text-white"
+    },
+    {
+      name: "Blood Donations",
+      icon: "bi bi-droplet-fill text-white"
+    },
+    {
+      name: "Business Manager",
+      icon: "bi bi-briefcase-fill text-white"
+    },
+    {
+      name: "Climate Science Centre",
+      icon: "bi bi-flower1 text-white"
+    },
+    {
+      name: "COVID-19 Information Centre",
+      icon: "bi bi-box2-heart-fill text-white"
+    },
+    
+    {
+      name: "Emotional Health",
+      icon: "bi bi-flower3 text-white"
+    },
+    {
+      name: "Events",
+      icon: "bi bi-bookmark-star-fill text-white"
+    },
+    {
+      name: "Favourites",
+      icon: "bi bi-star-fill text-white"
+    },
+    {
+      name: "Gaming videos",
+      icon: "bi bi-joystick text-white"
+    },
+    {
+      name: "Live videos",
+      icon: "bi bi-file-play-fill text-white"
+    },
+    {
+      name: "Messenger",
+      icon: "bi bi-messenger text-white"
+    },
+    {
+      name: "Pages",
+      icon: "bi bi-flag-fill  text-white"
+    },
+    {
+      name: "Saved",
+      icon: "bi bi-save-fill text-white"
+    },
+  ];

@@ -1,52 +1,49 @@
 import React from 'react';
 import './sidebar.css'
-import Acount from'./acount.jpg'
+import Acount from './acount.jpg'
+import { SideBtn2 } from './Data'
+import { SideBtn } from './Data'
 import { Link } from 'react-router-dom';
 const Sidebar = () => {
 
-  const sideBtn = [
+  const showmore = () => {
     {
-      name: "Friends",
-      icon: "bi bi-people-fill text-white"
-    },
-    {
-      name: "Most recent",
-      icon: "bi bi-list-check text-white"
-    },
-    {
-      name: "Groups",
-      icon: "bi bi-people text-white"
-    },
-    {
-      name: "Marketplace",
-      icon: "bi bi-shop text-white"
-    },
-    {
-      name: "Watch",
-      icon: "bi bi-play-btn-fill text-white"
-    },
-    {
-      name: "Memories",
-      icon: "bi bi-clock-history  text-white"
-    },
-    {
-      name: "Saved",
-      icon: "bi bi-save-fill text-white"
-    },
-  ];
+      if (document.querySelector("#show-btn").textContent === "Show more") {
+        const va = document.querySelector("#show-btn")
+        va.textContent = "Show less";
+        const bt = document.querySelector("#extra-btns");
+        bt.style.display = "block";
+      }
+      else {
+        const va = document.querySelector("#show-btn")
+        va.textContent = "Show more";
+        const bt = document.querySelector("#extra-btns");
+        bt.style.display = "none";
+      }
+    }
+
+  }
   return (
-    <div className='col-2 sidebar '>
-     <Link className='p-link' to="/profile"><div className="user btns mt-4 ml-4"><img className='acount '  src={Acount} alt="user"/><span className='ml-2'>Ajay kumar</span></div></Link>
-      {sideBtn.map((btns)=>(
-      <div className="btns mt-3 ml-4">
-        <i className={btns.icon}></i><span className='ml-3'>{btns.name}</span>
-        
-      </div>
+    <div className='col-3 sidebar '>
+      <Link className='p-link' to="/profile"><div className="user btns mt-4 ml-4"><img className='acount ' src={Acount} alt="user" /><span className='ml-2'>Ajay kumar</span></div></Link>
+      {SideBtn.map((btns) => (
+        <div className="btns mt-3 ml-4">
+          <i className={btns.icon}></i><span className='ml-3'>{btns.name}</span>
+
+        </div>
       ))}
-      <button type="button" className='show-more mt-4 ml-3 text-white'><i class="bi bi-arrow-bar-down "></i><span className='ml-2'>Show more</span></button>
-      <hr className='line'/>
+      <div id="extra-btns">
+        {SideBtn2.map((btns2) => (
+          <div className="btns mt-3 ml-4">
+            <i className={btns2.icon}></i><span className='ml-3'>{btns2.name}</span>
+
+          </div>
+        ))}
+      </div>
+      <button type="button" onClick={showmore} className='show-more mt-4 ml-3 text-white'><i class="bi bi-arrow-bar-down "></i><span className='ml-2 ' id='show-btn'>Show more</span></button>
+      <hr className='line' />
     </div>
-    
+
   )
 }
 
