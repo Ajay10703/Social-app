@@ -6,7 +6,7 @@ import Post from './Post'
 import { postData } from './Data'
 function Main(props) {
   return (<div className='feed' >
-    {(props.name==="home")?<div className='offset-3 col-6  mains'>
+    {(props.name==="home")?<div className='offset-2 col-8  mains'>
   <TopFeed/>
   <CreatePost/>
   {postData.map((p)=>(<Post key={p.id} postdt={p}/>))}

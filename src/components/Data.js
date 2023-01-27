@@ -264,3 +264,125 @@ export const postData = [
       icon: "bi bi-save-fill text-white"
     },
   ];
+
+  export   const Rightside = [
+    {url:require("./assets/1.png"),
+      name:"Rohit kumar"
+    },
+    {url:require("./assets/2.jpg"),
+      name:"Sourabh kumar"
+    },
+    {url:require("./assets/3.jpg"),
+      name:"Prem kumar chandra"
+    },
+    {url:require("./assets/5.jpg"),
+      name:"Deepak raj"
+    },
+    {url:require("./assets/6.jpg"),
+      name:"Amar prasad"
+    },
+    {url:require("./assets/7.jpg"),
+      name:"Anurag singh"
+    },
+    {url:require("./assets/8.png"),
+      name:"Rahul kumar"
+    },
+    {url:require("./assets/9.jpg"),
+      name:"Sonu kumar"
+    },
+    {url:require("./assets/5.jpg"),
+      name:"Rohit kumar"
+    },
+    {url:require("./assets/7.jpg"),
+      name:"Bunty raj"
+    },
+    {url:require("./assets/1.png"),
+      name:"Rohit kumar"
+    },
+    {url:require("./assets/2.jpg"),
+      name:"Sourabh kumar"
+    },
+    {url:require("./assets/3.jpg"),
+      name:"Prem kumar chandra"
+    },
+    {url:require("./assets/5.jpg"),
+      name:"Deepak raj"
+    },
+    {url:require("./assets/6.jpg"),
+      name:"Amar prasad"
+    },
+    {url:require("./assets/7.jpg"),
+      name:"Anurag singh"
+    },
+    {url:require("./assets/8.png"),
+      name:"Rahul kumar"
+    },
+    {url:require("./assets/9.jpg"),
+      name:"Sonu kumar"
+    },
+    {url:require("./assets/5.jpg"),
+      name:"Rohit kumar"
+    },
+    {url:require("./assets/7.jpg"),
+      name:"Bunty raj"
+    },{url:require("./assets/1.png"),
+    name:"Rohit kumar"
+  },
+  {url:require("./assets/2.jpg"),
+    name:"Sourabh kumar"
+  },
+  {url:require("./assets/3.jpg"),
+    name:"Prem kumar chandra"
+  },
+  {url:require("./assets/5.jpg"),
+    name:"Deepak raj"
+  },
+  {url:require("./assets/6.jpg"),
+    name:"Amar prasad"
+  },
+  {url:require("./assets/7.jpg"),
+    name:"Anurag singh"
+  },
+  {url:require("./assets/8.png"),
+    name:"Rahul kumar"
+  },
+  {url:require("./assets/9.jpg"),
+    name:"Sonu kumar"
+  },
+  {url:require("./assets/5.jpg"),
+    name:"Rohit kumar"
+  },
+  {url:require("./assets/7.jpg"),
+    name:"Bunty raj"
+  },
+  {url:require("./assets/1.png"),
+    name:"Rohit kumar"
+  },
+  {url:require("./assets/2.jpg"),
+    name:"Sourabh kumar"
+  },
+  {url:require("./assets/3.jpg"),
+    name:"Prem kumar chandra"
+  },
+  {url:require("./assets/5.jpg"),
+    name:"Deepak raj"
+  },
+  {url:require("./assets/6.jpg"),
+    name:"Amar prasad"
+  },
+  {url:require("./assets/7.jpg"),
+    name:"Anurag singh"
+  },
+  {url:require("./assets/8.png"),
+    name:"Rahul kumar"
+  },
+  {url:require("./assets/9.jpg"),
+    name:"Sonu kumar"
+  },
+  {url:require("./assets/5.jpg"),
+    name:"Rohit kumar"
+  },
+  {url:require("./assets/7.jpg"),
+    name:"Bunty raj"
+  }
+      ];

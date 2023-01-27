@@ -5,13 +5,17 @@
 }
 .mains{
     overflow-y: scroll;
-    
+    -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
 .mains::-webkit-scrollbar{
     display: none;
     
   }
-
+.row{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
 /* top feed section */
 .top-feed{
     background-color: #333;

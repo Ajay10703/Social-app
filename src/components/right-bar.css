@@ -13,6 +13,8 @@
 }
 .contact-section{
     overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
 }
 .contact-section::-webkit-scrollbar{
     display: none;

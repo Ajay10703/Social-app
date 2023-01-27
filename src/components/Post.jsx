@@ -7,20 +7,18 @@ const Posts = ({postdt}) => {
  
   const[like,setLike]=useState(postdt.likeCount)
   const[isLiked,setIsLiked]=useState(false)
+  
   const likeHandler=()=>{
     setLike(isLiked? like-1 : like+1 )
+   
     setIsLiked(!isLiked)
+
   }
 const closebtn =()=>{
  const p= document.querySelector(`#${postdt.id}`);
 p.style.display="none";
 }
-  // const[display,setdisplay]=useState(postdt.id)
-  // const[closed,setClosed]=useState(false)
-  // const closeHandler=()=>{
-  //   setLike(isLiked? like-1 : like+1 )
-  //   setIsLiked(!isLiked)
-  // }
+ 
   return (
     
       <div className="post pb-3" id={postdt.id}>
@@ -47,7 +45,7 @@ p.style.display="none";
           <hr className="line" />
           <div className="reaction-input d-flex">
             <button type="button" onClick={likeHandler} className="btn-holder col-6 ">
-              <i className="bi bi-hand-thumbs-up   "></i><span className='  mx-2'>Like</span>
+              <i className="bi bi-hand-thumbs-up"></i><span className='  mx-2'>Like</span>
             </button>
             <button type="button" className="btn-holder col-6">
               <i className="bi bi-chat-left  "></i><span className='  mx-2'>Comment</span>

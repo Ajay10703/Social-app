@@ -2,7 +2,13 @@
     position: fixed;
 height:92vh ;
 overflow-y: scroll;
+-ms-overflow-style: none; 
+scrollbar-width: none;
 }
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
 .show-more{
     border: none;
     background-color: #222;
@@ -22,7 +28,4 @@ overflow-y: scroll;
 .p-link, .p-link:hover{
     text-decoration: none!important;
     color: #fff;
-}
-#extra-btns{
-    display: none;
 }
